@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+section {
+  scroll-margin-top: 6rem; /* Correspond à 96px (soit la hauteur de la navbar + un peu d'espace) */
+}
