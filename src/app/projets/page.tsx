@@ -27,6 +27,15 @@ const allProjects: Project[] = [
     image: "/bookvault.png",
     liveUrl: "https://bookvault-two.vercel.app/",
     githubUrl: "https://github.com/yourusername/bookvault",
+  },
+  {
+    id: 2,
+    title: "root_access",
+    description: "Portfolio de professionnel en cybersécurité, mettant en avant ses compétences, projets et réalisations dans le domaine de la sécurité informatique.",
+    tags: [ "Tailwind CSS", "Next.js", "TypeScript"],
+    image: "/root_access.png",
+    liveUrl: "https://root-access.vercel.app/",
+    githubUrl: "https://github.com/yourusername/root_access",
   }
 ];
 
