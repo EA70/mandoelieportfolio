@@ -29,7 +29,7 @@ const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: "root_access",
+    title: "Clément Anguandia",
     description:
       "Portfolio de professionnel en cybersécurité, mettant en avant ses compétences, projets et réalisations dans le domaine de la sécurité informatique.",
     tags: [ "Tailwind CSS", "Next.js", "TypeScript"],
@@ -65,8 +65,6 @@ export default function Projects() {
         {/* Liste des projets */}
         <div className="flex flex-col gap-24">
           {projectsData.map((project, index) => {
-            // Si l'index est impair (0, 2, 4...), le texte est à gauche.
-            // Si l'index est pair (1, 3, 5...), le texte passe à droite sur PC.
             const isEven = index % 2 === 0;
 
             return (

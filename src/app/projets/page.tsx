@@ -30,17 +30,17 @@ const allProjects: Project[] = [
   },
   {
     id: 2,
-    title: "root_access",
+    title: "Clément Anguandia",
     description: "Portfolio de professionnel en cybersécurité, mettant en avant ses compétences, projets et réalisations dans le domaine de la sécurité informatique.",
-    tags: [ "Tailwind CSS", "Next.js", "TypeScript"],
+    tags: [ "Tailwind CSS", "Next.js","Portfolio", "TypeScript"],
     image: "/accessroot.png",
-    liveUrl: "https://root-access.vercel.app/",
+    liveUrl: "https://root-access-portfolio.vercel.app/",
     githubUrl: "https://github.com/yourusername/root_access",
   }
 ];
 
 // Liste de toutes les technos pour générer les boutons de filtre
-const filterCategories = ["Tous", "Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"];
+const filterCategories = ["Tous", "Portfolio","Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"];
 
 export default function AllProjectsPage() {
   const [selectedTech, setSelectedTech] = useState("Tous");
