@@ -33,7 +33,7 @@ const allProjects: Project[] = [
     title: "root_access",
     description: "Portfolio de professionnel en cybersécurité, mettant en avant ses compétences, projets et réalisations dans le domaine de la sécurité informatique.",
     tags: [ "Tailwind CSS", "Next.js", "TypeScript"],
-    image: "/root_access.png",
+    image: "/accessroot.png",
     liveUrl: "https://root-access.vercel.app/",
     githubUrl: "https://github.com/yourusername/root_access",
   }
