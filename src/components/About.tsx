@@ -28,7 +28,7 @@ export default function About() {
     {
       role: "Développeur Frontend & Design",
       company: "Ecole de Formation des cadres, Tunis, Tunisie.",
-      period: "2024",
+      period: "2023",
       description: "Création d'interfaces utilisateur interactives et dynamiques.",
     },
   ];

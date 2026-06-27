@@ -42,17 +42,24 @@ export default function BlogSection() {
       <div className="max-w-5xl mx-auto px-6">
         
         {/* En-tête centré (Style de la maquette) */}
-        <div className="text-center max-w-2xl mx-auto mb-20">
-          <span className="text-xs font-bold uppercase tracking-widest text-blue-600 block mb-3">
-            Partage de connaissances
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight leading-tight">
-            Un <span className="text-blue-600">Blog</span> est pour les indies...
-          </h2>
-          <p className="text-gray-500 font-medium text-sm sm:text-base mt-4 leading-relaxed">
-            Articles, tutoriels et réflexions sur les coulisses du développement web et la gestion d'infrastructures numériques.
-          </p>
-        </div>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <div className="text-center max-w-2xl mx-auto mb-20">
+            <span className="text-xs font-bold uppercase tracking-widest text-blue-600 block mb-3">
+              Partage de connaissances
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight leading-tight">
+              Un <span className="text-blue-600">Blog</span> est pour les indies...
+            </h2>
+            <p className="text-gray-500 font-medium text-sm sm:text-base mt-4 leading-relaxed">
+              Articles, tutoriels et réflexions sur les coulisses du développement web et la gestion d'infrastructures numériques.
+            </p>
+          </div>
+        </motion.div>
+
 
         {/* Grille des Articles de Blog */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
@@ -139,9 +146,9 @@ export default function BlogSection() {
             </p>
           </div>
           
-          <div className="lg:col-span-5 relative aspect-[4/3] w-full mx-auto lg:max-w-none rounded overflow-hidden shadow-sm">
+          <div className="lg:col-span-5 relative aspect-[4/3] w-full mx-auto lg:max-w-none rounded overflow-hidden">
             <Image
-              src="/ki.jpg" 
+              src="/ai.png" 
               alt="Intelligence Artificielle et Génie Logiciel"
               fill
               sizes="(max-w-7xl) 33vw, 100vw"

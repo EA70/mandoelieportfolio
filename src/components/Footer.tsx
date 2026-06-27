@@ -20,7 +20,7 @@ export default function Footer() {
       links: [
         { name: "GitHub", href: "https://github.com/EA70" },
         { name: "LinkedIn", href: "https://www.linkedin.com/in/elie-mando-110a11108/" },
-        { name: "Twitter / X", href: "https://twitter.com" },
+        { name: "Twitter / X", href: "https://x.com/koyabandaelie?s=11" },
       ],
     },
     {
@@ -68,7 +68,7 @@ export default function Footer() {
                 <FaLinkedin className="w-5 h-5" />
               </a>
               <Link 
-                href="https://twitter.com" 
+                href="https://x.com/koyabandaelie?s=11" 
                 className="p-2.5 bg-slate-900 border border-slate-800 rounded-lg text-slate-400 hover:text-white hover:border-slate-700 transition-all"
                 aria-label="Twitter"
               >

@@ -23,7 +23,7 @@ const allProjects: Project[] = [
     id: 1,
     title: "bookVault",
     description: "Une plateforme digitale moderne dédiée aux passionnés de lecture pour gérer leur bibliothèque personnelle.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
+    tags: ["React", "Express", "PostgreSQL", "Tailwind CSS", "Node.js"],
     image: "/bookvault.png",
     liveUrl: "https://bookvault-two.vercel.app/",
     githubUrl: "https://github.com/yourusername/bookvault",
